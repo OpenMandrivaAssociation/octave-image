@@ -2,9 +2,9 @@
 
 Summary:	Image processing toolkit for Octave
 Name:		octave-%{octpkg}
-Version:	2.12.0
+Version:	2.14.0
 Release:	1
-Source0:	http://downloads.sourceforge.net/octave/%{octpkg}-%{version}.tar.gz
+Source0:	https://downloads.sourceforge.net/octave/%{octpkg}-%{version}.tar.gz
 License:	GPLv3+
 Group:		Sciences/Mathematics
 Url:		https://octave.sourceforge.io/%{octpkg}/
