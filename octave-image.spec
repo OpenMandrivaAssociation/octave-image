@@ -2,7 +2,7 @@
 
 Summary:	Image processing toolkit for Octave
 Name:		octave-%{octpkg}
-Version:	2.18.1
+Version:	2.20.0
 Release:	1
 Source0:	https://downloads.sourceforge.net/octave/%{octpkg}-%{version}.tar.gz
 License:	GPLv3+
@@ -34,7 +34,7 @@ linear filtering, and much more.
 #---------------------------------------------------------------------------
 
 %prep
-%autosetup -p1 -n %{octpkg}-%{version}
+%autosetup -p1 -n image-2.20.0
 
 # remove backup files
 #find . -name \*~ -delete
